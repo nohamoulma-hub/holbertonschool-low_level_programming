@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
-Puts is an command like printf but more lighter
+ * Puts is an command like printf but more lighter
  */
 int main(void)
 {
