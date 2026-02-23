@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /*
  * Puts is an command like printf but more lighter
  */
