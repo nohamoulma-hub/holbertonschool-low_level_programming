@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-/*
- * Puts is an command like printf but more lighter
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
