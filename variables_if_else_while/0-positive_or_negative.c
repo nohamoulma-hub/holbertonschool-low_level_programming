@@ -3,7 +3,11 @@
 #include <stdio.h>
 /** more headers goes there */
 
-/** betty style doc for function main goes there */
+/**
+ * main - print en fonction du nombre si il est positif, négatif, ou égal
+ *
+ * Return:0 Si rien ne s'affiche tout est parfait
+ */
 int main(void)
 {
 	int n;
