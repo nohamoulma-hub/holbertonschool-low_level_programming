@@ -16,5 +16,6 @@ for (lettre = 'a'; lettre <= 'z'; lettre++)
 _putchar(lettre);
 }
 compteur++;
+_putchar('\n');
 }
 }
