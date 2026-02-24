@@ -12,12 +12,12 @@ int main(void)
 
 	for (nb = '0'; nb <= '9'; nb++)
 	{
-		if (nb <= '9')
+		putchar(nb);
+		if (nb < '9')
 		{
 			putchar(',');
+			putchar(' ');
 		}
-		putchar(nb);
-		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
