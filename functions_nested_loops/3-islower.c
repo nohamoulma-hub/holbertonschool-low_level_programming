@@ -2,7 +2,7 @@
 /**
  * _islower - c'est le controleur
  *
- * 'c' - c'est l'outil de mesure,il va controler chaque
+ * @c: c'est l'outil de mesure,il va controler chaque
  * caractère pour savoir si il est minuscule ou non
  *
  * Return:1 if lowercase, 0 otherwise
