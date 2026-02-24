@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ *  main - afficher _putchar
+ *
+ * Return:0 Si rien ne s'affiche tout est parfait
+ */
 int main(void)
 {
 	_putchar('_');
@@ -10,5 +14,6 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
