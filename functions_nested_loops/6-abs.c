@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- *_abs - it's a tool we use for return the absolute value
+ * _abs - computes the absolute value of an integer
+ * @n: the integer to check
  *
- *@n : integrate the value
- *
- * return n return the absolute value
+ * Return: the absolute value of int
  */
 int _abs(int n)
 
