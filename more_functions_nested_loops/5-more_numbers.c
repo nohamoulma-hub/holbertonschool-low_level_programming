@@ -10,7 +10,7 @@ void more_numbers(void)
 	int col;
 	int lign;
 
-	for (col = 0; col <= 10; col++)
+	for (col = 0; col < 10; col++)
 	{
 		for (lign = 0; lign <= 14; lign++)
 		{
