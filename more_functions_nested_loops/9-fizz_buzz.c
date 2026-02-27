@@ -24,7 +24,7 @@ int main(void)
 		}
 		else if (nb % 3 == 0)
 		{
-			printf("fizz");
+			printf("Fizz");
 		}
 		else
 		{
