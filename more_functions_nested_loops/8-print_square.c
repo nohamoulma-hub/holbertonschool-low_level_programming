@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_diagonal - dessine une ligne diagonale dans le terminal.
- * @n: le nombre de fois que le caractère \ doit être imprimé.
+ * print_square - imprime un carré suivi d'une nouvelle ligne.
+ * @size: la taille du côté du carré.
  *
- * Description: Chaque \ est précédé d'un nombre croissant d'espaces.
- * Si n est <= 0, imprime seulement un saut de ligne.
+ * Description: Utilise le caractère # pour dessiner le carré.
+ * Si size est <= 0, imprime seulement un saut de ligne.
  */
 void print_square(int size)
 
