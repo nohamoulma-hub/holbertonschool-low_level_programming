@@ -4,7 +4,7 @@
 int main(void)
 
 {
-	int choicecalcul, add, subtract, mulitiply, divide;
+	int choicecalcul;
 
 		printf("Welcome to simple calculator !\n");
 		printf("1) Add\n");
