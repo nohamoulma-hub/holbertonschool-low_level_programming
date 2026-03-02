@@ -2,6 +2,7 @@
 /**
  * _strlen - renvoie la longueur d'une chaîne de caractères
  * @s: la chaîne à mesurer
+ * longu - renvoie le nombre de charactère jusqu'au dernier (\0)
  *
  * Return: la longueur de la chaîne (entier)
  */
