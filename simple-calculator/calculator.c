@@ -1,12 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <ctype.h>
-
+/**
+ * main - Point d'entrée du programme de calculatrice
+ *
+ * Description: Affiche un menu, prend l'entrée utilisateur
+ * et effectue des opérations de base (add, sub, mul, div).
+ *
+ * Return: Toujours 0 (Succès)
+ */
 int main(void)
 {
-	int choicecalcul, nb1 = 0, nb2 = 0, resultat = 0;
+	int choicecalcul = -1, nb1 = 0, nb2 = 0, resultat = 0;
 
+	while (choicecalcul != 0)
+	{
 		printf("Welcome to simple calculator !\n1) Add\n2) Subtract\n");
 		printf("3) Multiply\n4) Divide\n0) Quit\n");
 		scanf("%d", &choicecalcul);
@@ -36,8 +42,12 @@ int main(void)
 	{
 		printf("Entrez votre division : \n");
 		scanf("%d / %d", &nb1, &nb2);
-		if (nb2 != 0)
+		if (nb2 == 0)
+		{
+		printf("Error : division by zero\n");
+		}
 		printf("%d / %d = %d\n", nb1, nb2, resultat = nb1 / nb2);
+	}
 	}
 	return (0);
 }
