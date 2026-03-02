@@ -17,13 +17,13 @@ int main(void)
 		scanf("%d", &choicecalcul);
 
 	if (choicecalcul < 0 || choicecalcul > 4)
-	{
+		{
 		printf("Invalid choice\n");
-	}
+		}
 	if (choicecalcul == 0)
-	{
+		{
 		printf("Bye !\n");
-	}
+		}
 	if (choicecalcul == 1)
 	{
 		printf("Entrez votre premier nombre : \n");
@@ -32,6 +32,15 @@ int main(void)
 		scanf("%d", &nb2);
 		resultat = nb1 + nb2;
 		printf("%d + %d = %d\n", nb1, nb2, resultat);
+	}
+	if (choicecalcul == 2)
+	{
+		printf("Entrez votre premier nombre : \n");
+		scanf("%d", &nb1);
+		printf("Entrez votre deuxième nombre : \n");
+		scanf("%d", &nb2);
+		resultat = nb1 - nb2;
+		printf("%d - %d = %d\n", nb1, nb2, resultat);
 	}
 	return (0);
 }
