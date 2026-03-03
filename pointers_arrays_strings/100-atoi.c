@@ -1,6 +1,14 @@
 #include "main.h"
 /**
- * 
+ * _atoi - convertit une chaîne de caractères en entier
+ * @s: la chaîne à convertir
+ *
+ * Description: La fonction prend en compte tous les signes '-' et '+'
+ * précédant le nombre. Elle arrête la conversion dès qu'un caractère
+ * non numérique est rencontré après le début d'un nombre.
+ * Si aucun nombre n'est trouvé, elle retourne 0.
+ *
+ * Return: l'entier converti à partir de la chaîne.
  */
 int _atoi(char *s)
 {
