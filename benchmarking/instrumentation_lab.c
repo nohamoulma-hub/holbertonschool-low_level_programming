@@ -87,7 +87,7 @@ int main(void)
 
 	 printf("Total seconds : %.6f\n", (double)(end_total - start_total) / CLOCKS_PER_SEC);
 	 printf("Build data seconds : %.6f\n", (double)(end_build - start_build) / CLOCKS_PER_SEC);
-	 printf("Process seconds : %6.f\n", (double)(end_process - start_process) / CLOCKS_PER_SEC);
+	 printf("Process seconds : %.6f\n", (double)(end_process - start_process) / CLOCKS_PER_SEC);
 	 printf("Reduce seconds : %.6f\n", (double)(end_reduce - start_reduce) / CLOCKS_PER_SEC);
 
 	return 0;

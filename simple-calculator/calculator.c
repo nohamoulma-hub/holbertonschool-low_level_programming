@@ -43,9 +43,7 @@ int main(void)
 		printf("Entrez votre division : \n");
 		scanf("%d / %d", &nb1, &nb2);
 		if (nb2 == 0)
-		{
 		printf("Error : division by zero\n");
-		}
 		printf("%d / %d = %d\n", nb1, nb2, resultat = nb1 / nb2);
 	}
 	}
