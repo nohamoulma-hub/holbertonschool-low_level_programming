@@ -1,6 +1,10 @@
 #include "main.h"
 /**
- * 
+ * helper - Searches for the natural square root of a number.
+ * @n: The number to find the square root of.
+ * @i: The iterator to test.
+ *
+ * Return: The square root if found, -1 otherwise.
  */
 int helper(int n, int i)
 {
