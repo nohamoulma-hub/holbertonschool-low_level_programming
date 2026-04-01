@@ -1,4 +1,5 @@
 #include "lists.h"
+#include "stdlib.h"
 /**
  * free_dlistint - libère une liste de type dlistint_t
  * @head: pointeur vers le début de la liste
