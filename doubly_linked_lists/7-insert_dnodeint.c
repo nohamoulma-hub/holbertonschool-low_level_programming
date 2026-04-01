@@ -17,7 +17,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 
 	if (*h == NULL)
 		return (NULL);
-	while (cp_h->next != NULL && compteur < idx)
+	while (cp_h->next != NULL && compteur < idx - 1)
 	{
 		cp_h = cp_h->next;
 		compteur++;
